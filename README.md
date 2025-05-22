@@ -49,10 +49,10 @@ docker-compose build
 docker-compose up -d
 
 # Aplicar migraciones
-docker-compose exec reconbot python manage.py migrate
+docker-compose exec web python manage.py migrate
 
 # Crear superusuario (opcional)
-docker-compose exec reconbot python manage.py createsuperuser
+docker-compose exec web python manage.py createsuperuser
 ```
 
 ## Modulos Diponibles
