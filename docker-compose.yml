@@ -10,3 +10,5 @@ services:
       - "8000:8000"
     environment:
       - PYTHONUNBUFFERED=1
+      - DJANGO_ALLOWED_HOSTS=0.0.0.0,localhost
+
